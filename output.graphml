@@ -1,0 +1,687 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+    <key id="group" for="node" attr.name="group" attr.type="string"></key>
+    <key id="groupId" for="node" attr.name="groupId" attr.type="string"></key>
+    <key id="inSecondaryGroup" for="node" attr.name="inSecondaryGroup" attr.type="boolean"></key>
+    <key id="is1d" for="node" attr.name="is1d" attr.type="boolean"></key>
+    <key id="label" for="node" attr.name="label" attr.type="string"></key>
+    <key id="name" for="node" attr.name="name" attr.type="string"></key>
+    <key id="pageName" for="node" attr.name="pageName" attr.type="string"></key>
+    <key id="secondaryGroup" for="node" attr.name="secondaryGroup" attr.type="string"></key>
+    <key id="shapeId" for="node" attr.name="shapeId" attr.type="long"></key>
+    <key id="shapeRef" for="node" attr.name="shapeRef" attr.type="long"></key>
+    <key id="symbolName" for="node" attr.name="symbolName" attr.type="string"></key>
+    <key id="textRef" for="node" attr.name="textRef" attr.type="long"></key>
+    <key id="textRefWhy" for="node" attr.name="textRefWhy" attr.type="string"></key>
+    <key id="type" for="node" attr.name="type" attr.type="string"></key>
+    <key id="x" for="node" attr.name="x" attr.type="float"></key>
+    <key id="y" for="node" attr.name="y" attr.type="float"></key>
+    <key id="label" for="edge" attr.name="label" attr.type="string"></key>
+    <key id="x" for="edge" attr.name="x" attr.type="double"></key>
+    <key id="y" for="edge" attr.name="y" attr.type="double"></key>
+    <graph id="G" edgedefault="directed">
+        <node id="0: -42">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-42</data>
+            <data key="shapeRef">104</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">4.2197</data>
+            <data key="y">4.15695</data>
+        </node>
+        <node id="0: -43">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-43</data>
+            <data key="shapeRef">104</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">4.125</data>
+            <data key="y">4.15695</data>
+        </node>
+        <node id="0: -44">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-44</data>
+            <data key="shapeRef">105</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">4.2197</data>
+            <data key="y">2.7345</data>
+        </node>
+        <node id="0: -45">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-45</data>
+            <data key="shapeRef">105</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">4.125</data>
+            <data key="y">2.7345</data>
+        </node>
+        <node id="0: -46">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-46</data>
+            <data key="shapeRef">59</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">4.15</data>
+            <data key="y">7.3619003</data>
+        </node>
+        <node id="0: -47">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-47</data>
+            <data key="shapeRef">59</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">4.15</data>
+            <data key="y">4.5125504</data>
+        </node>
+        <node id="0: -48">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-48</data>
+            <data key="shapeRef">59</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">4.15</data>
+            <data key="y">2.08815</data>
+        </node>
+        <node id="0: -49">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-49</data>
+            <data key="shapeRef">74</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">5.8438</data>
+            <data key="y">7.3619003</data>
+        </node>
+        <node id="0: -50">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-50</data>
+            <data key="shapeRef">74</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">5.8438</data>
+            <data key="y">4.5125504</data>
+        </node>
+        <node id="0: -51">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">-51</data>
+            <data key="shapeRef">74</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">5.8438</data>
+            <data key="y">2.1272001</data>
+        </node>
+        <node id="0: 123">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">EOD Xml module</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">123</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">3.81945</data>
+            <data key="y">10.3611</data>
+        </node>
+        <node id="0: 128">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">GetExtractedData()</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">128</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">5.0239</data>
+            <data key="y">2.75</data>
+        </node>
+        <node id="0: 131">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">GetExtractedData()</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">131</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">4.9969</data>
+            <data key="y">4.125</data>
+        </node>
+        <node id="0: 132">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Return List of obj of extracted Data</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">132</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">4.9969</data>
+            <data key="y">2.125</data>
+        </node>
+        <node id="0: 133">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">1. Get the List of Extracted Data back to IcwManager from EOD xml parser and process each record based on IndexData or InstrumentPrice using class object instead of using the Staging table 2. Use LINQ to insert the processed record and insert into InstrumentPrice/IndexData instead of using the store proceudre</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">133</data>
+            <data key="symbolName">Activation</data>
+            <data key="textRef">134</data>
+            <data key="textRefWhy">associateWithShape</data>
+            <data key="type">Shape</data>
+            <data key="x">4.15</data>
+            <data key="y">1.375</data>
+        </node>
+        <node id="0: 141">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Existing Component</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">141</data>
+            <data key="symbolName">Dynamic connector</data>
+            <data key="textRef">144</data>
+            <data key="textRefWhy">associateWithShape</data>
+            <data key="type">Shape</data>
+            <data key="x">4.25</data>
+            <data key="y">5.6875</data>
+        </node>
+        <node id="0: 146">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">New Component</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">146</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">1.0</data>
+            <data key="y">1.75</data>
+        </node>
+        <node id="0: 37">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">IMintService-&gt; EODHandler</data>
+            <data key="name">Object lifeline</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">37</data>
+            <data key="symbolName">Object lifeline</data>
+            <data key="type">Group</data>
+            <data key="x">2.125</data>
+            <data key="y">9.71585</data>
+        </node>
+        <node id="0: 41">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">41</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">2.125</data>
+            <data key="y">7.71585</data>
+        </node>
+        <node id="0: 49">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name">Activation</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">49</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">2.125</data>
+            <data key="y">7.75</data>
+        </node>
+        <node id="0: 54">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Exchange EOD Method</data>
+            <data key="name">Message</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">54</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">3.1375</data>
+            <data key="y">9.0</data>
+        </node>
+        <node id="0: 55">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">IcwManager</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">55</data>
+            <data key="symbolName">Object lifeline</data>
+            <data key="type">Group</data>
+            <data key="x">4.15</data>
+            <data key="y">9.71585</data>
+        </node>
+        <node id="0: 61">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label"></data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">61</data>
+            <data key="symbolName">Activation</data>
+            <data key="type">Shape</data>
+            <data key="x">4.15</data>
+            <data key="y">7.75</data>
+        </node>
+        <node id="0: 62">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Index EOD Method</data>
+            <data key="name">Message.62</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">62</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">3.1375</data>
+            <data key="y">6.5</data>
+        </node>
+        <node id="0: 70">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">EndOfDayData</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">70</data>
+            <data key="symbolName">Object lifeline</data>
+            <data key="type">Group</data>
+            <data key="x">5.84375</data>
+            <data key="y">9.71585</data>
+        </node>
+        <node id="0: 76">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Parse the EOD xml and update local variable with extracted data of Exchange or Index EOD xml </data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">76</data>
+            <data key="symbolName">Activation</data>
+            <data key="textRef">84</data>
+            <data key="textRefWhy">associateWithShape</data>
+            <data key="type">Shape</data>
+            <data key="x">5.8438</data>
+            <data key="y">7.875</data>
+        </node>
+        <node id="0: 77">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">update Insrument Price </data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">77</data>
+            <data key="symbolName">Message</data>
+            <data key="type">Shape</data>
+            <data key="x">4.9969</data>
+            <data key="y">8.75</data>
+        </node>
+        <node id="0: 88">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">loop </data>
+            <data key="name">Loop fragment</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">88</data>
+            <data key="symbolName">Loop fragment</data>
+            <data key="textRef">89</data>
+            <data key="textRefWhy">reassignToParent</data>
+            <data key="type">Group</data>
+            <data key="x">7.125</data>
+            <data key="y">7.59585</data>
+        </node>
+        <node id="0: 90">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">true</data>
+            <data key="is1d">false</data>
+            <data key="label">Extracted Data</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="secondaryGroup">loop</data>
+            <data key="shapeId">90</data>
+            <data key="symbolName"></data>
+            <data key="type">Shape</data>
+            <data key="x">6.85415</data>
+            <data key="y">7.57495</data>
+        </node>
+        <node id="0: 92">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Loop Extracted Data and Update the Staging Table for each Exchange or Index record </data>
+            <data key="name">Dynamic connector</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">92</data>
+            <data key="symbolName">Dynamic connector</data>
+            <data key="textRef">111</data>
+            <data key="textRefWhy">associateWithShape</data>
+            <data key="type">Shape</data>
+            <data key="x">6.158</data>
+            <data key="y">7.875</data>
+        </node>
+        <node id="0: 94">
+            <data key="group"></data>
+            <data key="groupId"></data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">true</data>
+            <data key="label">Number of Rows Inserted in Staging table </data>
+            <data key="name">Return Message</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">94</data>
+            <data key="symbolName">Return Message</data>
+            <data key="type">Shape</data>
+            <data key="x">4.9969</data>
+            <data key="y">6.75</data>
+        </node>
+        <node id="0: 97">
+            <data key="group">alt</data>
+            <data key="groupId">0: 95</data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">Exchange EOD Xml Data</data>
+            <data key="name">Interaction operand</data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">97</data>
+            <data key="symbolName">Interaction operand</data>
+            <data key="type">Shape</data>
+            <data key="x">4.125</data>
+            <data key="y">3.4457002</data>
+        </node>
+        <node id="0: 98">
+            <data key="group">alt</data>
+            <data key="groupId">0: 95</data>
+            <data key="inSecondaryGroup">false</data>
+            <data key="is1d">false</data>
+            <data key="label">Index EOD Xml Data</data>
+            <data key="name"></data>
+            <data key="pageName">Sequence Diagram</data>
+            <data key="shapeId">98</data>
+            <data key="symbolName">Interaction operand</data>
+            <data key="type">Shape</data>
+            <data key="x">4.125</data>
+            <data key="y">4.8682003</data>
+        </node>
+        <edge id="0: -42 -&gt; 131" source="0: -42" target="0: 131">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.2197</data>
+            <data key="y">4.125</data>
+        </edge>
+        <edge id="0: -42 -&gt; 97" source="0: -42" target="0: 97">
+            <data key="label">inferred2d-split-start</data>
+            <data key="x">4.2197</data>
+            <data key="y">3.8013</data>
+        </edge>
+        <edge id="0: -42 -&gt; 98" source="0: -42" target="0: 98">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">4.2197</data>
+            <data key="y">3.8013</data>
+        </edge>
+        <edge id="0: -43 -&gt; 98" source="0: -43" target="0: 98">
+            <data key="label">inferred2d-split-next-end</data>
+            <data key="x">4.2197</data>
+            <data key="y">4.5126</data>
+        </edge>
+        <edge id="0: -44 -&gt; 128" source="0: -44" target="0: 128">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.2197</data>
+            <data key="y">2.75</data>
+        </edge>
+        <edge id="0: -44 -&gt; 97" source="0: -44" target="0: 97">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">4.2197</data>
+            <data key="y">2.3789</data>
+        </edge>
+        <edge id="0: -45 -&gt; 97" source="0: -45" target="0: 97">
+            <data key="label">inferred2d-split-next-end</data>
+            <data key="x">4.2197</data>
+            <data key="y">3.0901</data>
+        </edge>
+        <edge id="0: -46 -&gt; 55" source="0: -46" target="0: 55">
+            <data key="label">inferred2d-split-start</data>
+            <data key="x">4.15</data>
+            <data key="y">9.5</data>
+        </edge>
+        <edge id="0: -46 -&gt; 98" source="0: -46" target="0: 98">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">4.15</data>
+            <data key="y">9.5</data>
+        </edge>
+        <edge id="0: -47 -&gt; 97" source="0: -47" target="0: 97">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">4.15</data>
+            <data key="y">5.2238</data>
+        </edge>
+        <edge id="0: -47 -&gt; 98" source="0: -47" target="0: 98">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">4.15</data>
+            <data key="y">5.2238</data>
+        </edge>
+        <edge id="0: -48 -&gt; 132" source="0: -48" target="0: 132">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.15</data>
+            <data key="y">2.125</data>
+        </edge>
+        <edge id="0: -48 -&gt; 97" source="0: -48" target="0: 97">
+            <data key="label">inferred2d-split-next-end</data>
+            <data key="x">4.15</data>
+            <data key="y">3.8013</data>
+        </edge>
+        <edge id="0: -49 -&gt; 70" source="0: -49" target="0: 70">
+            <data key="label">inferred2d-split-start</data>
+            <data key="x">5.8438</data>
+            <data key="y">9.5</data>
+        </edge>
+        <edge id="0: -49 -&gt; 98" source="0: -49" target="0: 98">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">5.8438</data>
+            <data key="y">9.5</data>
+        </edge>
+        <edge id="0: -50 -&gt; 97" source="0: -50" target="0: 97">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">5.8438</data>
+            <data key="y">5.2238</data>
+        </edge>
+        <edge id="0: -50 -&gt; 98" source="0: -50" target="0: 98">
+            <data key="label">inferred2d-split-middle</data>
+            <data key="x">5.8438</data>
+            <data key="y">5.2238</data>
+        </edge>
+        <edge id="0: -51 -&gt; 132" source="0: -51" target="0: 132">
+            <data key="label">inferred-1d</data>
+            <data key="x">5.8438</data>
+            <data key="y">2.125</data>
+        </edge>
+        <edge id="0: -51 -&gt; 97" source="0: -51" target="0: 97">
+            <data key="label">inferred2d-split-next-end</data>
+            <data key="x">5.8438</data>
+            <data key="y">3.8013</data>
+        </edge>
+        <edge id="0: 37 -&gt; 41" source="0: 37" target="0: 41">
+            <data key="label">inferred-2d</data>
+            <data key="x">2.125</data>
+            <data key="y">9.5</data>
+        </edge>
+        <edge id="0: 37 -&gt; 49" source="0: 37" target="0: 49">
+            <data key="label">real</data>
+            <data key="x">2.1875</data>
+            <data key="y">7.0</data>
+        </edge>
+        <edge id="0: 37 -&gt; 54" source="0: 37" target="0: 54">
+            <data key="label">real</data>
+            <data key="x">2.125</data>
+            <data key="y">9.0</data>
+        </edge>
+        <edge id="0: 37 -&gt; 62" source="0: 37" target="0: 62">
+            <data key="label">real</data>
+            <data key="x">2.125</data>
+            <data key="y">6.5</data>
+        </edge>
+        <edge id="0: 54 -&gt; 55" source="0: 54" target="0: 55">
+            <data key="label">real</data>
+            <data key="x">4.15</data>
+            <data key="y">9.0</data>
+        </edge>
+        <edge id="0: 54 -&gt; 61" source="0: 54" target="0: 61">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.0875</data>
+            <data key="y">9.0</data>
+        </edge>
+        <edge id="0: 55 -&gt; 61" source="0: 55" target="0: 61">
+            <data key="label">real</data>
+            <data key="x">4.2125</data>
+            <data key="y">6.25</data>
+        </edge>
+        <edge id="0: 55 -&gt; 62" source="0: 55" target="0: 62">
+            <data key="label">real</data>
+            <data key="x">4.15</data>
+            <data key="y">6.5</data>
+        </edge>
+        <edge id="0: 61 -&gt; 62" source="0: 61" target="0: 62">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.0875</data>
+            <data key="y">6.5</data>
+        </edge>
+        <edge id="0: 61 -&gt; 77" source="0: 61" target="0: 77">
+            <data key="label">inferred-1d</data>
+            <data key="x">4.2125</data>
+            <data key="y">8.75</data>
+        </edge>
+        <edge id="0: 61 -&gt; 94" source="0: 61" target="0: 94">
+            <data key="label">real</data>
+            <data key="x">4.2125</data>
+            <data key="y">6.75</data>
+        </edge>
+        <edge id="0: 70 -&gt; 76" source="0: 70" target="0: 76">
+            <data key="label">real</data>
+            <data key="x">5.9063</data>
+            <data key="y">6.5</data>
+        </edge>
+        <edge id="0: 76 -&gt; 77" source="0: 76" target="0: 77">
+            <data key="label">inferred-1d</data>
+            <data key="x">5.7813</data>
+            <data key="y">8.75</data>
+        </edge>
+        <edge id="0: 76 -&gt; 92" source="0: 76" target="0: 92">
+            <data key="label">real</data>
+            <data key="x">5.9063</data>
+            <data key="y">8.25</data>
+        </edge>
+        <edge id="0: 76 -&gt; 94" source="0: 76" target="0: 94">
+            <data key="label">real</data>
+            <data key="x">5.7813</data>
+            <data key="y">6.75</data>
+        </edge>
+        <edge id="0: 88 -&gt; 92" source="0: 88" target="0: 92">
+            <data key="label">inferred-2d</data>
+            <data key="x">6.4097</data>
+            <data key="y">7.5</data>
+        </edge>
+        <edge id="0: 90 -&gt; 92" source="0: 90" target="0: 92">
+            <data key="label">inferred-2d</data>
+            <data key="x">6.4097</data>
+            <data key="y">7.5</data>
+        </edge>
+    </graph>
+</graphml>

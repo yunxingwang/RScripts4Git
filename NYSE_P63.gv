@@ -1,0 +1,17 @@
+digraph P63 { 
+graph [layout=dot, compound = true, splines=ortho, fontsize = 30, nodesep = .5, ranksep = .25, overlap=scalexy, rankdir=TB] 
+ node [shape =eclipse,fillcolor="", fontsize = 20, style = filled , label=""] 
+P63_1 [label="FullCall"] 
+P63_5 [label="End"] 
+node [shape =diamond,fillcolor="", fontsize = 20, style = filled , label=""] 
+P63_2 [label="Issue Symbol has value \n Ticker Symbol in Notes has 'CL' \n suffix, e.g. ?New Issue Symbol: TYG PR C CL'"] 
+P63_3 [label="Raise Exception Redemp \n  or FullCall preconditions \n are not met"] 
+node [shape =box,fillcolor=red, fontsize = 20, style = filled, label=""] 
+P63_4 [label="Redemption(Issue Symbol, Ticker Symbol in Notes)"] 
+edge [color=red,fontsize=20, style=bold ] 
+P63_1->P63_2[label=""] 
+P63_2->P63_3[label=N] 
+P63_2->P63_4[label=Y] 
+P63_4->P63_5[label=""] 
+ 
+ }

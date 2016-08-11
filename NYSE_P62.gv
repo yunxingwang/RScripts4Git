@@ -1,0 +1,41 @@
+digraph P62 { 
+graph [layout=dot, compound = true, splines=ortho, fontsize = 30, nodesep = .5, ranksep = .25, overlap=scalexy, rankdir=TB] 
+ node [shape =ellipse,fillcolor="", fontsize = 60, style = filled , label=""] 
+ P62_1 [label="Add New CUSIP
+ NonPLQ"] 
+P62_11 [label="End"] 
+node [shape =diamond,fillcolor="", fontsize = 60, style = filled , label=""] 
+ P62_2 [label="Old CUSIP is CUSIP 
+& New CUSIP is CUSIP"] 
+P62_3 [label="Old CUSIP is CIN CUSIP 
+& New CUSIP is CUSIP"] 
+P62_4 [label="Does an unique active ISIN whose 
+3rd-11th character != New CUSIP exist"] 
+P62_6 [label="Is active new ISIN found on the Instrument 
+and EFD of new ISIN=ETD of old ISIN"] 
+node [shape =box,fillcolor="", fontsize = 60, style = filled , label=""] 
+ P62_5 [label="Use the active ISIN as Old ISIN"] 
+P62_7 [label="Set ETD of old CUSIP to Action Date
+ & Add New CUSIP(EFD=Action Date, ETD=null) 
+to the Instrument"] 
+P62_8 [label="Raise Exception CIN CUSIP is 
+given with Non-PLQ"] 
+P62_9 [label="Raise Exception Potential old ISIN 
+cannot be decided for CIN CUSIP"] 
+P62_10 [label="Raise ExceptionPotential Mismatch
+ between CUSIP and ISIN"] 
+ edge [color=green,fontsize=50, style=bold ] 
+P62_1->P62_2[label=""] 
+P62_2->P62_3[label=N] 
+P62_2->P62_6[label=Y] 
+P62_6->P62_10[label=N] 
+P62_6->P62_7[label=Y] 
+P62_7->P62_11[label=""] 
+P62_3->P62_8[label=N] 
+P62_3->P62_4[label=Y] 
+P62_4->P62_5[label=Y] 
+P62_4->P62_9[label=N] 
+P62_5->P62_6[label=""] 
+P62_5->P62_9[label=""] 
+ 
+ }

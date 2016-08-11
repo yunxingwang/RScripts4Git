@@ -1,0 +1,24 @@
+---
+output: html_document
+---
+
+```{r echo=FALSE}
+library(DiagrammeR)
+DiagrammeR::mermaid("
+graph LR
+A-->B
+",height=800
+)
+
+
+mermaid("graph LR;
+      O[Is given Ticker Symbol the same as ExchangeChange Ticker Symbol</br>:use Source_Ticker_Symbol, if Target_Ticker_Symbol is null]
+      P[Can corresponding ExchangeChange be found in Exception Management System through CUSIP</br>use Source_CUSIP, if Target_CUSIP is null]
+      Q{Can corresponding ExchangeChange be found in Exception Management System through given Ticker Symbol?</br>use Source_ticker_symbol, if Target_Ticker_Symbol is null}
+      R[Effective Date in notification=Effective Date of the ExchangeChange]
+O-->P
+P-->Q
+Q-->R
+")
+
+```

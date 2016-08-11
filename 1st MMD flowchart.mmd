@@ -1,0 +1,18 @@
+graph TD
+A[Rounded]
+B[Processed]
+C{Test 01}
+A-->B
+B-->C
+C-->D[End 01]
+C-- Already done -->E[End 02]
+C-->|style 3|F[End 03]
+C--style 3-->G[End 03]
+
+      O[Is given Ticker Symbol the same as ExchangeChange Ticker Symbol \r\n use Source_Ticker_Symbol, if Target_Ticker_Symbol is null]
+      P[Can corresponding ExchangeChange be found in Exception Management System through CUSIP</br>use Source_CUSIP, if Target_CUSIP is null]
+      Q{Can corresponding ExchangeChange be found in Exception Management System through given Ticker Symbol?</br>use Source_ticker_symbol, if Target_Ticker_Symbol is null}
+      R[Effective Date in notification=Effective Date of the ExchangeChange]
+O-->P
+P-->Q
+Q-->R

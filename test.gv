@@ -1,0 +1,7 @@
+digraph ggg {
+graph [layout=dot] 
+ node [shape =box, fontsize=100, style = filled , label=''] 
+ B [label=string]
+C [label=text]
+B->C[label="test"]
+ }
