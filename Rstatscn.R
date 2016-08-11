@@ -1,8 +1,16 @@
-install.packages('rstatscn')
-install.packages("knitr", dependencies = TRUE)
-library(rstatscn)
-library(knitr)
+#install.packages('rstatscn')
+#install.packages("knitr", dependencies = TRUE)
+#```
+#library(rstatscn)
+#library(knitr)
+#```
+packageVersion("knitr")
+# if not the latest version, run
+update.packages()
 setwd()
+
+
+str(cars)
 kable(head(mtcars[, 1:6]))
 statscnDbs()
 statscnQueryZb(dbcode='hgnd')
@@ -16,3 +24,8 @@ x <- cumsum(rnorm(100))
 plot(x, type = "l", ylab = "$x_{i+1}=x_i+\\epsilon_{i+1}$",xlab = "step")
 
 setwd()
+
+
+
+if (!require("shiny")) install.packages("shiny")
+demo("notebook", package = "knitr")
