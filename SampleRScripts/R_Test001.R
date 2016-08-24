@@ -1,3 +1,4 @@
+install.packages("downloader")
 require(downloader)
 library(dplyr)
 library(sqldf)
